@@ -1,40 +1,8 @@
-<!-- 
-The A11Y Project är ett community-drivet initiativ som strävar efter att göra digital tillgänglighet enklare, 
-mer begriplig och lättare att implementera för alla.
-
-Läs lite om projektet:
-https://www.a11yproject.com/about/
-
-
-Tillgänglighet är en viktig del av webbutveckling. Det handlar om att göra webbplatser och appar tillgängliga för alla, inklusive personer med funktionsnedsättningar. 
-Det finns många sätt att göra en webbplats mer tillgänglig, till exempel att använda semantisk HTML, skapa enkel navigering och använda alternativa texter för bilder.
- ____________________________________________________________________________________________________
- 1. Läs noga genom koden och identifiera alla tillgänglighetsproblem.
- 
- 2. Testa kör lighthouse i devtools(Google chrome) och se vilka problem som finns.
-
- 3. Skriv en kort sammanfattning av vad som är fel och hur det kan åtgärdas.
-
- 4. Skriv om koden så att den följer tillgänglighetsstandarder.
-
- 5. Skriv en kort sammanfattning av vad du har ändrat och varför.
-
- 6. Testa din nya kod med andra verktyg för tillgänglighet.
-
- 7. Skriv en kort reflektion över hur det var att göra uppgiften. Vad var svårt? Vad lärde du dig?
- ____________________________________________________________________________________________________
-
--->
-
-
 <!DOCTYPE html>
-<!-- What happens when the language attribute is commented out? -->
-<!-- <html lang="en"> -->
+<html lang="en">
   <head>
-    <meta charset="UTF-8" />
+    <meta charset="UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- Only one `<title>` should be used; multiple titles can cause unexpected behavior and negatively impact SEO and accessibility. -->
-    <title>Vase Vista - Artisanal Vases</title>
     <title>Vase Vista - Artisanal Vases</title>
     <meta name="description" content="Elevating spaces through thoughtfully designed vessels that blend form and function in perfect harmony." />
     <link rel="stylesheet" href="styles.css" />
@@ -49,8 +17,8 @@ Det finns många sätt att göra en webbplats mer tillgänglig, till exempel att
           <a href="#home" class="logo">Vase Vista</a>
           <!-- Navigation menu with duplicate IDs, inconsistent tabindex, and broken links to a 404 page -->
           <ul class="nav-links">
-            <li><a id="1" href="#home">Home</a></li>
-            <li><a id="1" tabindex="-1" href="#collection">Collection</a></li>
+            <li><a href="#home">Home</a></li>
+            <li><a tabindex="-1" href="#collection">Collection</a></li>
             <li><a href="#philosophy">Philosophy</a></li>
             <li><a tabindex="-1" href="404.html">Contact</a></li>
           </ul>
@@ -64,10 +32,7 @@ Det finns många sätt att göra en webbplats mer tillgänglig, till exempel att
         <div class="container">
           <div class="hero-content">
             <span class="subtitle">Artisanal Excellence</span>
-            <!-- Two <h1> tags inside .container may affect accessibility and SEO. -->
-
             <h1>Timeless Beauty <br>in Every Curve</h1>
-            <h1></h1>
             <p>Each piece tells a story of craftsmanship and elegance, designed to elevate your space and inspire your senses.</p>
             <div class="hero-buttons">
               <a href="#collection" class="btn btn-primary">Explore Collection</a>
@@ -75,7 +40,7 @@ Det finns många sätt att göra en webbplats mer tillgänglig, till exempel att
             </div>
           </div>
           <div class="hero-image">
-            <img src="https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?q=80&w=1887&auto=format&fit=crop" alt="Elegant ceramic vase with minimalist design">
+            <img src="https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?q=80&w=1887&auto=format&fit=crop" alt="Elegant designed livingroom with beige sofa and a wooden coffe table">
           </div>
         </div>
       </section>

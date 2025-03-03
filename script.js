@@ -5,13 +5,13 @@
 //   }, 3000)
   
   // Förhindrar användaren att navigera bakåt
-  history.pushState(null, "", location.href)
-  window.onpopstate = () => history.go(1)
+  // history.pushState(null, "", location.href)
+  // window.onpopstate = () => history.go(1)
   
   // Visar innehållet på sidan efter 5 sekunder
-  setTimeout(() => {
-    document.body.style.display = "block"
-  }, 5000)
+  // setTimeout(() => {
+  //   document.body.style.display = "block"
+  // }, 5000)
   
   // Loggar 10000 tal till konsolen efter 1 sekund
   // setTimeout(() => {

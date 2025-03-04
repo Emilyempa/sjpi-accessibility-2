@@ -382,8 +382,8 @@ img {
   text-align: center;
 }
 
-.contact-content h2 {
-  font-size: 32px;
+.contact-content h5 {
+  font-size: 1.5rem;
   margin-bottom: 16px;
 }
 
@@ -411,12 +411,23 @@ img {
 }
 
 .form-group input:focus {
-  outline: none;
+  outline-offset: 2px;
   border-color: var(--color-charcoal);
 }
 
 .form-group label{
   padding-right: 0.4rem;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
 }
 
 .contact-info {

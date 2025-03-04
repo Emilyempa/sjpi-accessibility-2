@@ -427,6 +427,11 @@ img {
   border-top: 1px solid var(--color-sand);
 }
 
+.contact-info h6{
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+}
+
 .info-card h3 {
   font-size: 18px;
   margin-bottom: 8px;

@@ -15,12 +15,11 @@
       <div class="container">
         <nav class="navbar">
           <a href="#home" class="logo">Vase Vista</a>
-          <!-- Navigation menu with duplicate IDs, inconsistent tabindex, and broken links to a 404 page -->
           <ul class="nav-links">
             <li><a href="#home">Home</a></li>
-            <li><a tabindex="-1" href="#collection">Collection</a></li>
+            <li><a href="#collection">Collection</a></li>
             <li><a href="#philosophy">Philosophy</a></li>
-            <li><a tabindex="-1" href="404.html">Contact</a></li>
+            <li><a href="#contact">Contact</a></li>
           </ul>
         </nav>
       </div>
@@ -31,7 +30,7 @@
       <section id="home" class="hero">
         <div class="container">
           <div class="hero-content">
-            <span class="subtitle">Artisanal Excellence</span>
+            <p class="subtitle">Artisanal Excellence</p> 
             <h1>Timeless Beauty <br>in Every Curve</h1>
             <p>Each piece tells a story of craftsmanship and elegance, designed to elevate your space and inspire your senses.</p>
             <div class="hero-buttons">
@@ -49,27 +48,26 @@
       <section id="collection" class="products">
         <div class="container">
           <div class="section-header">
-            <span class="subtitle">Our Collection</span>
+            <p class="subtitle">Our Collection</p>
             <h2>Curated Excellence</h2>
           </div>
 
-      <!-- Use a <button> instead of a <div> to improve accessibility -->
+      
           <div class="category-filters">
-            <div class="filter-btn active">All</div>
+            <button class="filter-btn active">All</button>
             <button class="filter-btn">Ceramic</button>
-            <div class="filter-btn">Glass</div>
+            <button class="filter-btn">Glass</button>
             <button class="filter-btn">Porcelain</button>
           </div>
 
-          <!-- Missing alt text and hotlinking an external image can affect accessibility, performance, and reliability. -->
           <div class="product-grid">
             <div class="product-card">
               <div class="product-image">
                 <img src="/Ux/sjpi-accessibility-2/img/image (5).webp" width="268" height="335" alt="Ceramic vase with a shiny terracotta finish">
               </div>
               <div class="product-info">
-                <span class="product-category">Ceramic</span>
-                <h1>Terra Sculptural Vase</h3>
+                <p class="product-category">Ceramic</p>
+                <h3>Terra Sculptural Vase</h3>
                 <p>Hand-thrown ceramic with a matte terracotta finish</p>
                 <span class="product-price">$120</span>
               </div>
@@ -82,8 +80,8 @@
                 <img src="/Ux/sjpi-accessibility-2/img/image (1).webp" width="268" height="335" alt="White glass vase in oval shape">
               </div>
               <div class="product-info">
-                <span class="product-category">Glass</span>
-                <h1>Serenity Glass Vessel</h3>
+                <p class="product-category">Glass</p>
+                <h3>Serenity Glass Vessel</h3>
                 <p>Mouth-blown glass with a gentle gradient effect</p>
                 <span class="product-price">$95</span>
               </div>
@@ -94,7 +92,7 @@
                 <img src="/Ux/sjpi-accessibility-2/img/image (4).webp" width="268" height="335" alt="Round White porcelain vase with a hole in the middle">
               </div>
               <div class="product-info">
-                <span class="product-category">Porcelain</span>
+                <p class="product-category">Porcelain</p>
                 <h3>Nordic Minimalist Vase</h3>
                 <p>Clean lines and pure form in white porcelain</p>
                 <span class="product-price">$85</span>
@@ -106,7 +104,7 @@
                 <img src="/Ux/sjpi-accessibility-2/img/image (2).webp" width="268" height="335" alt="Ceramic vase with a wood like finish">
               </div>
               <div class="product-info">
-                <span class="product-category">Ceramic</span>
+                <p class="product-category">Ceramic</p>
                 <h3>Organic Contour Vessel</h3>
                 <p>Asymmetrical silhouette with a handcrafted texture</p>
                 <span class="product-price">$135</span>
@@ -123,13 +121,12 @@
             <div class="philosophy-image">
               <img src="/Ux/sjpi-accessibility-2/img/image (3).webp" width="555" height="555" alt="A beautiful set table with diffrent plates and lots of lit candles">
               <div class="quote-box">
-                <!-- a-tag, should be p-tag -->
-                <a>"Simplicity is the ultimate sophistication."</a>
+              <blockquote>"Simplicity is the ultimate sophistication."</blockquote>
               </div>
             </div>
             <div class="philosophy-text">
-              <span class="subtitle">Our Approach</span>
-              <h2>The Philosophy Behind Our Design</h2>
+              <p class="subtitle">Our Approach</p>
+              <h4>The Philosophy Behind Our Design</h4>
               
               <!-- Instead of using multiple <br> tags to separate paragraphs, use <p> or proper headings for better readability. -->
               <div class="philosophy-paragraphs">
@@ -161,8 +158,8 @@
       <section id="contact" class="contact">
         <div class="container">
           <div class="contact-content">
-            <span class="subtitle">Stay Connected</span>
-            <h2>Join Our Community</h2>
+            <p class="subtitle">Stay Connected</p>
+            <h5>Join Our Community</h5>
             <p>Be the first to know about new collections, exclusive offers, and design inspiration. Subscribe to our newsletter for a curated experience.</p>
             
             <form class="newsletter-form">
@@ -175,17 +172,17 @@
             <!-- Instead of using multiple <br> tags to separate paragraphs, use <p> or proper headings for better readability. -->
             <div class="contact-info">
               <div class="info-card">
-                <h3>Visit Our Studio</h3>
+                <h6>Visit Our Studio</h6>
                 <p>123 Design Avenue<br>Studio 405<br>New York, NY 10001</p>
               </div>
               
               <div class="info-card">
-                <h3>Opening Hours</h3>
+                <h6>Opening Hours</h6>
                 <p>Monday - Friday: 10am - 6pm<br>Saturday: 11am - 5pm<br>Sunday: Closed</p>
               </div>
               
               <div class="info-card">
-                <h3>Get in Touch</h3>
+                <h6>Get in Touch</h6>
                 <p>info@vasevista.com<br>+1 (212) 555-1234<br>@vasevista</p>
               </div>
             </div>
@@ -199,14 +196,14 @@
       <div class="container">
         <div class="footer-content">
           <div class="footer-brand">
-            <h3>Vase Vista</h3>
+            <h6>Vase Vista</h6>
             <p>Elevating spaces through thoughtfully designed vessels that blend form and function in perfect harmony.</p>
           </div>
 
           <!-- Incorrect use of <p> for links: Replace <p> with <a> to ensure proper semantics and accessibility. -->
           <div class="footer-links">
             <div class="footer-column">
-              <h4>Quick Links</h4>
+              <h6>Quick Links</h6>
               <ul>
                 <li><p href="#home">Home</p></li>
                 <li><p href="#collection">Collection</p></li>
@@ -217,10 +214,10 @@
          
             <!-- 404 pages and # links provide no destination  -->
             <div class="footer-column">
-              <h4>Connect</h4>
+              <h6>Connect</h6>
               <ul>
                 <li><p href="#">Instagram</p></li>
-                <li><p href="404.html">Pinterest</p></li>
+                <li><p href="#">Pinterest</p></li>
                 <li><p href="#">LinkedIn</p></li>
               </ul>
             </div>

@@ -334,8 +334,8 @@ img {
   flex: 1;
 }
 
-.philosophy-text h2 {
-  font-size: 32px;
+.philosophy-text h4 {
+  font-size: 1.4rem;
   margin-bottom: 24px;
 }
 
@@ -419,19 +419,8 @@ img {
   border-color: var(--color-charcoal);
 }
 
-.form-group label{
+.form-group label {
   padding-right: 0.4rem;
-}
-
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  padding: 0;
-  margin: -1px;
-  overflow: hidden;
-  clip: rect(0, 0, 0, 0);
-  border: 0;
 }
 
 .contact-info {
@@ -442,7 +431,7 @@ img {
   border-top: 1px solid var(--color-sand);
 }
 
-.contact-info h6{
+.contact-info h6 {
   font-size: 1.3rem;
   margin-bottom: 1rem;
 }

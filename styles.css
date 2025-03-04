@@ -393,6 +393,10 @@ img {
   color: rgba(45, 45, 45, 0.8);
 }
 
+.contact-content ::placeholder {
+  color: black;
+}
+
 .newsletter-form {
   margin-bottom: 48px;
 }

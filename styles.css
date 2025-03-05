@@ -481,7 +481,7 @@ img {
 .footer-content {
   display: flex;
   justify-content: space-between;
-  gap: 0.6rem;
+  gap: 4rem;
   margin-bottom: 0.2rem;
 }
 
@@ -501,9 +501,9 @@ img {
 }
 
 .footer-links {
-  flex: 2;
+  flex: 4;
   display: flex;
-  gap: 40px;
+  flex-direction: column;
 }
 
 .footer-links p {
@@ -516,6 +516,7 @@ img {
   letter-spacing: 1px;
   margin-bottom: 1rem;
   font-weight: 500;
+  margin-left: 0.5rem;
 }
 
 .footer-column ul li {
@@ -531,6 +532,7 @@ img {
 
 .footer-column ul li a:hover {
   color: black;
+  text-decoration: underline;
 }
 
 .footer-bottom {
@@ -540,7 +542,6 @@ img {
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
-  gap: 16px;
 }
 
 .footer-bottom p {
@@ -550,7 +551,7 @@ img {
 
 .footer-legal {
   display: flex;
-  gap: 24px;
+  gap: 1.5rem;
 }
 
 .footer-legal a {
@@ -561,6 +562,7 @@ img {
 
 .footer-legal a:hover {
   color: black;
+  text-decoration: underline;
 }
 
 /* Responsive Design */

@@ -481,8 +481,8 @@ img {
 .footer-content {
   display: flex;
   justify-content: space-between;
-  gap: 40px;
-  margin-bottom: 40px;
+  gap: 0.6rem;
+  margin-bottom: 0.2rem;
 }
 
 .footer-brand {
@@ -497,6 +497,7 @@ img {
 .footer-brand p {
   color: var(--color-brown);
   max-width: 350px;
+  padding-bottom: 0.3rem;
 }
 
 .footer-links {
@@ -519,16 +520,17 @@ img {
 
 .footer-column ul li {
   margin-bottom: 0.2rem;
+  padding: 0.3rem;
 }
 
 .footer-column ul li a {
   color: var(--color-brown);;
   transition: color 0.3s ease;
+  padding: 0.3rem;
 }
 
 .footer-column ul li a:hover {
   color: black;
-  text-shadow: #4b392f 0.1rem 0.1rem 0.2rem;
 }
 
 .footer-bottom {
@@ -559,7 +561,6 @@ img {
 
 .footer-legal a:hover {
   color: black;
-  text-shadow: #4b392f 0.1rem 0.1rem 0.2rem;
 }
 
 /* Responsive Design */

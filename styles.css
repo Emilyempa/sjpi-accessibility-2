@@ -474,8 +474,8 @@ img {
 /* Footer */
 .footer {
   padding: 48px 0 24px;
-  background-color: var(--color-charcoal);
-  color: white;
+  background-color: var(--color-beige);
+  color: var(--color-brown);
 }
 
 .footer-content {
@@ -495,7 +495,7 @@ img {
 }
 
 .footer-brand p {
-  color: white;
+  color: var(--color-brown);
   max-width: 350px;
 }
 
@@ -522,12 +522,13 @@ img {
 }
 
 .footer-column ul li a {
-  color: white;
+  color: var(--color-brown);;
   transition: color 0.3s ease;
 }
 
 .footer-column ul li a:hover {
-  color: white;
+  color: black;
+  text-shadow: #4b392f 0.1rem 0.1rem 0.2rem;
 }
 
 .footer-bottom {
@@ -542,7 +543,7 @@ img {
 
 .footer-bottom p {
   font-size: 14px;
-  color: white;
+  color: var(--color-brown);
 }
 
 .footer-legal {
@@ -552,12 +553,13 @@ img {
 
 .footer-legal a {
   font-size: 14px;
-  color: #ffffff;
+  color: var(--color-brown);;
   transition: color 0.3s ease;
 }
 
 .footer-legal a:hover {
-  color: white;
+  color: black;
+  text-shadow: #4b392f 0.1rem 0.1rem 0.2rem;
 }
 
 /* Responsive Design */

@@ -62,6 +62,10 @@ h6 {
   line-height: 1.2;
 }
 
+h1 span {
+  display: block;
+}
+
 a {
   text-decoration: none;
   color: inherit;
@@ -391,7 +395,7 @@ img {
 }
 
 .stat p {
-  font-size: 14px;
+  font-size: 1.1rem;
   color: rgba(45, 45, 45);
 }
 
@@ -469,6 +473,12 @@ img {
 .info-card p {
   font-size: 14px;
   color: rgba(45, 45, 45);
+}
+
+.get-in-touch span,
+.adress span,
+.opening-hours span {
+    display: block;
 }
 
 /* Footer */

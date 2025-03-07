@@ -1,313 +1,288 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vase Vista - Artisanal Vases</title>
-    <meta
-      name="description"
-      content="Elevating spaces through thoughtfully designed vessels that blend form and function in perfect harmony."
-    >
-    <link rel="stylesheet" href="styles.css">
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap"
-      rel="stylesheet"
-    >
-  </head>
 
-  <body>
-    <a href="#main" class="skip-to-main">Skip to main content</a>
-    <!-- Header/Navbar -->
-    <header class="header">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vase Vista - Artisanal Vases</title>
+  <meta name="description"
+    content="Elevating spaces through thoughtfully designed vessels that blend form and function in perfect harmony.">
+  <link rel="stylesheet" href="styles.css" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap"
+    rel="stylesheet" />
+</head>
+
+<body>
+  <a href="#main" class="skip-to-main">Skip to main content</a>
+  <!-- Header/Navbar -->
+  <header class="header">
+    <div class="container">
+      <nav class="navbar">
+        <a href="#home" class="logo">Vase Vista</a>
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#collection">Collection</a></li>
+          <li><a href="#philosophy">Philosophy</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main" tabindex="-1">
+    <!-- Hero Section -->
+    <section id="home" class="hero">
       <div class="container">
-        <nav class="navbar">
-          <a href="#home" class="logo">Vase Vista</a>
-          <ul class="nav-links">
-            <li><a href="#home">Home</a></li>
-            <li><a href="#collection">Collection</a></li>
-            <li><a href="#philosophy">Philosophy</a></li>
-            <li><a href="#contact">Contact</a></li>
-          </ul>
-        </nav>
+        <div class="hero-content">
+          <p class="subtitle">Skillfully Crafted</p>
+          <h1>
+            <span>Timeless Beauty</span>
+            <span>in Every Curve</span>
+          </h1>
+          <p>
+            Each vase tells a story of craftsmanship and elegance, designed to
+            make your home beautiful and inspire you.
+          </p>
+          <div class="hero-buttons">
+            <a href="#collection" class="btn btn-secondary">Explore Collection</a>
+            <a href="#philosophy" class="btn btn-secondary">Our Philosophy</a>
+          </div>
+        </div>
+        <div class="hero-image">
+          <img src="/sjpi-accessibility-2/img/image.webp" width="500" height="560"
+            alt="Elegant designed livingroom with beige sofa and a wooden coffe table" />
+        </div>
       </div>
-    </header>
+    </section>
 
-    <main id="main" tabindex="-1">
-      <!-- Hero Section -->
-      <section id="home" class="hero">
-        <div class="container">
-          <div class="hero-content">
-            <p class="subtitle">Skillfully Crafted</p>
-            <h1>
-              <span>Timeless Beauty</span>
-              <span>in Every Curve</span>
-            </h1>
-            <p>
-              Each vase tells a story of craftsmanship and elegance, designed
-              to elevate your home and inspire you.
-            </p>
-            <div class="hero-buttons">
-              <a href="#collection" class="btn btn-secondary">Explore Collection</a>
-              <a href="#philosophy" class="btn btn-secondary">Our Philosophy</a>
-            </div>
-          </div>
-          <div class="hero-image">
-            <img
-              src="/sjpi-accessibility-2/img/image.webp"
-              width="500"
-              height="560"
-              alt="Elegant designed livingroom with beige sofa and a wooden coffe table"
-            >
-          </div>
-        </div>
-      </section>
-
-      <!-- Product Showcase -->
-      <section id="collection" class="products">
-        <div class="container">
-          <div class="section-header">
-            <p class="subtitle">Our Collection</p>
-            <h2>Excellent Quality</h2>
-          </div>
-
-          <div class="category-filters">
-            <button class="filter-btn active" data-filter="all">All</button>
-            <button class="filter-btn" data-filter="ceramic">Ceramic</button>
-            <button class="filter-btn" data-filter="glass">Glass</button>
-            <button class="filter-btn" data-filter="porcelain">Porcelain</button>
-          </div>
-
-          <div class="product-grid">
-            <div class="product-card">
-              <div class="product-image">
-                <img
-                  src="/sjpi-accessibility-2/img/ceramic.webp"
-                  loading="lazy"
-                  width="268"
-                  height="335"
-                  alt="Ceramic vase with a shiny terracotta finish"
-                >
-              </div>
-              <div class="product-info">
-                <p class="product-category">Ceramic</p>
-                <h3>Terra Sculptural Vase</h3>
-                <p>Hand-made ceramic with a shiny teracotta finish</p>
-                <span class="product-price">$120</span>
-              </div>
-            </div>
-
-            <div class="product-card">
-              <div class="product-image">
-                <img
-                  src="/sjpi-accessibility-2/img/glass.webp"
-                  loading="lazy"
-                  width="268"
-                  height="335"
-                  alt="White glass vase in oval shape"
-                >
-              </div>
-              <div class="product-info">
-                <p class="product-category">Glass</p>
-                <h3>Serenity Glass Vase</h3>
-                <p>Mouth-blown white glass with a nice oval shape</p>
-                <span class="product-price">$95</span>
-              </div>
-            </div>
-
-            <div class="product-card">
-              <div class="product-image">
-                <img
-                  src="/sjpi-accessibility-2/img/porcelain.webp"
-                  loading="lazy"
-                  width="268"
-                  height="335"
-                  alt="Round White porcelain vase with a hole in the middle"
-                >
-              </div>
-              <div class="product-info">
-                <p class="product-category">Porcelain</p>
-                <h3>Nordic Minimalist Vase</h3>
-                <p>Wonderful hand-made round white porcelain</p>
-                <span class="product-price">$85</span>
-              </div>
-            </div>
-
-            <div class="product-card">
-              <div class="product-image">
-                <img
-                  src="/sjpi-accessibility-2/img/ceramictwo.webp"
-                  loading="lazy"
-                  width="268"
-                  height="335"
-                  alt="Ceramic vase with a wood like finish"
-                >
-              </div>
-              <div class="product-info">
-                <p class="product-category">Ceramic</p>
-                <h3>Organic Contour Vase</h3>
-                <p>Matching set of ceramic vases with wood like finish</p>
-                <span class="product-price">$135</span>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <!-- Philosophy Section -->
-      <section id="philosophy" class="philosophy">
-        <div class="container">
-          <div class="philosophy-content">
-            <div class="philosophy-image">
-              <img
-                src="/sjpi-accessibility-2/img/plates.webp"
-                loading="lazy"
-                width="555"
-                height="555"
-                alt="A beautiful set table with diffrent plates and lots of lit candles"
-              >
-              <div class="quote-box">
-                <blockquote>
-                  "Simplicity is the ultimate sophistication."
-                </blockquote>
-              </div>
-            </div>
-            <div class="philosophy-text">
-              <p class="subtitle">Our Approach</p>
-              <h4>The Philosophy Behind Our Design</h4>
-              <div class="philosophy-paragraphs">
-                <p>
-                  We believe in the beauty of form that follows function,
-                  creating pieces that are not just vessels but expressions of
-                  artistry that enhance your surroundings.
-                </p>
-                <p>
-                  Each vase is thoughtfully designed with attention to
-                  proportion, texture, and material integrity—celebrating the
-                  perfect balance between modern aesthetics and timeless
-                  craftsmanship.
-                </p>
-                <p>
-                  Our commitment to sustainability means we source materials
-                  responsibly and create objects meant to be cherished for
-                  generations, not discarded with changing trends.
-                </p>
-              </div>
-
-              <div class="philosophy-stats">
-                <div class="stat">
-                  <p class="stat-number">10+</p>
-                  <p>Years of Craftsmanship</p>
-                </div>
-                <div class="stat">
-                  <p class="stat-number">100%</p>
-                  <p>Handcrafted</p>
-                </div>
-                <div class="stat">
-                  <p class="stat-number">50+</p>
-                  <p>Unique Designs</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <!-- Contact Section -->
-      <section id="contact" class="contact">
-        <div class="container">
-          <div class="contact-content">
-            <p class="subtitle">Stay Connected</p>
-            <h5>Join Our Community</h5>
-            <p>
-              Be the first to know about new collections, exclusive offers, and
-              design inspiration. Subscribe to our newsletter by entering your
-              email below.
-            </p>
-
-            <form class="newsletter-form">
-              <div class="form-group">
-                <label for="email-input">Email Address</label>
-                <input
-                  type="email"
-                  id="email-input"
-                  aria-label="Enter your email address to subscribe to newsletter"
-                  placeholder="example@example.com"
-                  pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
-                  required
-                >
-                <button type="submit" class="btn btn-secondary">
-                  Subscribe
-                </button>
-              </div>
-            </form>
-
-            
-            <div class="contact-info">
-              <div class="info-card">
-                <h6>Visit Our Studio</h6>
-                <p class="adress">
-                  <span>123 Design Avenue</span>
-                  <span>Studio 405</span>
-                  <span>New York, NY 10001</span>
-                </p>
-              </div>
-
-              <div class="info-card">
-                <h6>Opening Hours</h6>
-                <p class="opening-hours">
-                  <span>Monday - Friday: 10am - 6pm</span>
-                  <span>Saturday: 11am - 5pm</span>
-                  <span>Sunday: Closed</span>
-                </p>            
-              </div>
-
-              <div class="info-card">
-                <h6>Get in Touch</h6>
-                <p class="get-in-touch">
-                  <span>info@vasevista.com</span>
-                  <span>+1 (212) 555-1234</span>
-                  <span>@vasevista</span>
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-    </main>
-
-    <!-- Footer -->
-    <footer class="footer">
+    <!-- Product Showcase -->
+    <section id="collection" class="products">
       <div class="container">
-        <div class="footer-content">
-          <div class="footer-brand">
-            <h6>Vase Vista</h6>
-            <p>
-              Making homes beautiful with carefully designed vases that
-              combine shape and use perfectly.
-            </p>
-          </div>
-          <div class="footer-links">
-            <div class="footer-column">
-              <h6>Links</h6>
-              <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#collection">Collection</a></li>
-                <li><a href="#philosophy">Philosophy</a></li>
-                <li><a href="#contact">Contact</a></li>
-              </ul>
+        <div class="section-header">
+          <p class="subtitle">Our Collection</p>
+          <h2>Excellent Quality</h2>
+        </div>
+
+        <div class="category-filters">
+          <button class="filter-btn active" type="button" data-filter="all" aria-controls="product-grid"
+            aria-pressed="true">
+            All
+          </button>
+          <button class="filter-btn" type="button" data-filter="ceramic" aria-controls="product-grid"
+            aria-pressed="false">
+            Ceramic
+          </button>
+          <button class="filter-btn" type="button" data-filter="glass" aria-controls="product-grid"
+            aria-pressed="false">
+            Glass
+          </button>
+          <button class="filter-btn" type="button" data-filter="porcelain" aria-controls="product-grid"
+            aria-pressed="false">
+            Porcelain
+          </button>
+        </div>
+
+        <div class="product-grid" id="product-grid">
+          <div class="product-card" data-category="ceramic">
+            <div class="product-image">
+              <img src="/sjpi-accessibility-2/img/ceramic.webp" loading="lazy" width="268" height="335"
+                alt="Ceramic vase with a shiny terracotta finish" />
+            </div>
+            <div class="product-info">
+              <p class="product-category">Ceramic</p>
+              <h3>Terra Sculptural Vase</h3>
+              <p>Hand-made ceramic with a shiny teracotta finish</p>
+              <span class="product-price">$120</span>
             </div>
           </div>
-        </div> 
-        <div class="footer-bottom">
-          <p>&copy; 2023 Vase Vista. All rights reserved.</p>
-          <div class="footer-legal">
-            <a href="https://policies.google.com/privacy">Privacy Policy</a>
-            <a href="https://docs.github.com/en/site-policy/github-terms/github-terms-of-service">Terms of Service</a>
+
+          <div class="product-card" data-category="glass">
+            <div class="product-image">
+              <img src="/sjpi-accessibility-2/img/glass.webp" loading="lazy" width="268" height="335"
+                alt="White glass vase in oval shape" />
+            </div>
+            <div class="product-info">
+              <p class="product-category">Glass</p>
+              <h3>Serenity Glass Vase</h3>
+              <p>Mouth-blown white glass with a nice oval shape</p>
+              <span class="product-price">$95</span>
+            </div>
+          </div>
+
+          <div class="product-card" data-category="porcelain">
+            <div class="product-image">
+              <img src="/sjpi-accessibility-2/img/porcelain.webp" loading="lazy" width="268" height="335"
+                alt="Round White porcelain vase with a hole in the middle" />
+            </div>
+            <div class="product-info">
+              <p class="product-category">Porcelain</p>
+              <h3>Nordic Minimalist Vase</h3>
+              <p>Wonderful hand-made round white porcelain</p>
+              <span class="product-price">$85</span>
+            </div>
+          </div>
+
+          <div class="product-card" data-category="ceramic">
+            <div class="product-image">
+              <img src="/sjpi-accessibility-2/img/ceramictwo.webp" loading="lazy" width="268" height="335"
+                alt="Ceramic vase with a wood like finish" />
+            </div>
+            <div class="product-info">
+              <p class="product-category">Ceramic</p>
+              <h3>Organic Contour Vase</h3>
+              <p>Matching set of ceramic vases with wood like finish</p>
+              <span class="product-price">$135</span>
+            </div>
           </div>
         </div>
       </div>
-    </footer>
+    </section>
 
-    <script src="script.js" defer></script>
-  </body>
+    <!-- Philosophy Section -->
+    <section id="philosophy" class="philosophy">
+      <div class="container">
+        <div class="philosophy-content">
+          <div class="philosophy-image">
+            <img src="/sjpi-accessibility-2/img/plates.webp" loading="lazy" width="555" height="555"
+              alt="A beautiful set table with diffrent plates and lots of lit candles" />
+            <div class="quote-box">
+              <blockquote>
+                "Simplicity is the ultimate sophistication."
+              </blockquote>
+            </div>
+          </div>
+          <div class="philosophy-text">
+            <p class="subtitle">Our Approach</p>
+            <h4>The Philosophy Behind Our Design</h4>
+            <div class="philosophy-paragraphs">
+              <p>
+                We believe in the beauty of form that follows function,
+                creating pieces that are not just vessels but expressions of
+                artistry that enhance your surroundings.
+              </p>
+              <p>
+                Each vase is thoughtfully designed with attention to
+                proportion, texture, and material integrity—celebrating the
+                perfect balance between modern aesthetics and timeless
+                craftsmanship.
+              </p>
+              <p>
+                Our commitment to sustainability means we source materials
+                responsibly and create objects meant to be cherished for
+                generations, not discarded with changing trends.
+              </p>
+            </div>
+
+            <div class="philosophy-stats">
+              <div class="stat">
+                <p class="stat-number">10+</p>
+                <p>Years of Craftsmanship</p>
+              </div>
+              <div class="stat">
+                <p class="stat-number">100%</p>
+                <p>Handcrafted</p>
+              </div>
+              <div class="stat">
+                <p class="stat-number">50+</p>
+                <p>Unique Designs</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+      <div class="container">
+        <div class="contact-content">
+          <p class="subtitle">Stay Connected</p>
+          <h5>Join Our Community</h5>
+          <p>
+            Be the first to know about new collections, exclusive offers, and
+            design inspiration. Subscribe to our newsletter by entering your
+            email below.
+          </p>
+
+          <form class="newsletter-form">
+            <div class="form-group">
+              <label for="email-input">Email Address</label>
+              <input type="email" id="email-input" aria-label="Enter your email address to subscribe to newsletter"
+                placeholder="example@example.com" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required />
+              <button type="submit" class="btn btn-secondary">
+                Subscribe
+              </button>
+            </div>
+          </form>
+
+          <div class="contact-info">
+            <div class="info-card">
+              <h6>Visit Our Studio</h6>
+              <p class="adress">
+                <span>123 Design Avenue</span>
+                <span>Studio 405</span>
+                <span>New York, NY 10001</span>
+              </p>
+            </div>
+
+            <div class="info-card">
+              <h6>Opening Hours</h6>
+              <p class="opening-hours">
+                <span>Monday - Friday: 10am - 6pm</span>
+                <span>Saturday: 11am - 5pm</span>
+                <span>Sunday: Closed</span>
+              </p>
+            </div>
+
+            <div class="info-card">
+              <h6>Get in Touch</h6>
+              <p class="get-in-touch">
+                <span>info@vasevista.com</span>
+                <span>+1 (212) 555-1234</span>
+                <span>@vasevista</span>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-brand">
+          <h6>Vase Vista</h6>
+          <p>
+            Making homes beautiful with carefully designed vases that combine
+            shape and use perfectly.
+          </p>
+        </div>
+        <div class="footer-links">
+          <div class="footer-column">
+            <h6>Links</h6>
+            <ul>
+              <li><a href="#home">Home</a></li>
+              <li><a href="#collection">Collection</a></li>
+              <li><a href="#philosophy">Philosophy</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2023 Vase Vista. All rights reserved.</p>
+        <div class="footer-legal">
+          <a href="https://policies.google.com/privacy">Privacy Policy</a>
+          <a href="https://docs.github.com/en/site-policy/github-terms/github-terms-of-service">Terms of Service</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
+
 </html>
